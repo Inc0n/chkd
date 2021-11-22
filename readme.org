@@ -1,2 +1,20 @@
 * chkd
-This is an experimental project that was created to implement some of the features, that shkd did not have.
+This is an unfinished project written in nimlang that was created to implement some of the features, that shkd did not have.
+
+* How this works 
+
+** C part
+Because nim doesn't have a library that provide API to some of the Mac OS interface.
+A library is written in c that will provide the API for the nim part to call.
+
+** Nim part 
+The configuration file parsing and evaluation/execution is written in Nim
+
+The syntax look like this:
+#+begin_src conf 
+set $test ctrl
+# reload
+
+bind cmd+a:            exec echo epple
+bind cmd+e:            exec echo apple
+#+end_src
