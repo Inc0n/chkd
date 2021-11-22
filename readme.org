@@ -1,0 +1,2 @@
+* chkd
+This is an experimental project that was created to implement some of the features, that shkd did not have.
