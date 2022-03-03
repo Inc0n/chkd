@@ -1,6 +1,14 @@
 * chkd
 This is an unfinished project written in nimlang that was created to implement some of the features, that shkd did not have.
 
+# Introduction: Why, Incentive, Motivation
+** Things are missing
+- [[https://github.com/koekeishiya/skhd/issues/121][to make your own modifier keywords]]
+- [[https://github.com/koekeishiya/skhd/issues/174][Cutom key definitions]]
+- [[https://github.com/koekeishiya/skhd/issues/155][How to add variables/constants to rc]]
+  This is not possible in the current grammar.
+  [[https://github.com/koekeishiya/skhd/issues/128][synthesizing multiple hotkeys per instance]]
+
 * How this works 
 
 ** C part
@@ -18,3 +26,4 @@ set $test ctrl
 bind cmd+a:            exec echo epple
 bind cmd+e:            exec echo apple
 #+end_src
+
